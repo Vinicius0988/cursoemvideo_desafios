@@ -1,3 +1,7 @@
-public class AnimalEstimacao {
+public interface AnimalEstimacao {
 
-}
+    void brincar();
+
+    void LevarPassear();       
+
+}   
