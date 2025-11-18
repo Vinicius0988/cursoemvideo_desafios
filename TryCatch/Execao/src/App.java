@@ -9,14 +9,11 @@ public class App {
             vetor[4] = 1;
 
             System.out.println("nao sera impresso");
-        } catch (lala exception) {
+        } catch (ArrayIndexOutOfBoundsException exception) {
             System.out.println("Exeçao ao acessar um indice do vetor que nao exixte");
         }
 
         System.out.println("Esse texto sera impresso apos a exeption");
-        
-
-        
 
     }
 }
